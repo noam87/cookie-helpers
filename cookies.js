@@ -1,4 +1,7 @@
 ;(function(window, exports) {
+  var C = {};
+  if (typeof Clusterfoo === "object") Clusterfoo.cookies = C;
+
   ////
   // Namespace your shit, people.
   //
@@ -9,11 +12,10 @@
   if (typeof window.Clusterfoo !== "object") {
     window.Clusterfoo = function() {
       window.Clusterfoo = {};
+      Clusterfoo.cookies = C;
     }
   }
 
-  var C = {};
-  if (typeof Clusterfoo === "object") Clusterfoo.cookies = C;
 
   ////
   // Set a cookies by name, value, and days until it expires.
