@@ -1,0 +1,22 @@
+{
+  "name": "clusterfoo.cookie-helpers",
+  "version": "1.0.0",
+  "homepage": "https://github.com/CLUSTERfoo/cookie-helpers",
+  "authors": [
+    "noam <noam@clusterfoo.com>"
+  ],
+  "description": "Just some helper functions for dealing with cookies in the browser",
+  "main": "cookies.js",
+  "keywords": [
+    "cookies"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

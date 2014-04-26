@@ -4,17 +4,20 @@ Some helper functions for handling cookies in the browser.
 
 ## Install
 
-**Method 1:** simply require `cookies.js` in your HTML. Now call:
+#### Method 1: 
+
+Simply require `cookies.js` in your HTML.
 
 
-**Method 2:**
+####Method 2:
 
     bower install clusterfoo/cookie-helpers
 
 ## How to Use
 
-**Method 1:** If you are using [browserify](http://browserify.org/) (please
-use broserify!), simply
+####Method 1:
+
+If you are using [browserify](http://browserify.org/), simply
 
 ```js
 var Cookies = require('clusterfoo.cookie-helpers');
@@ -22,11 +25,17 @@ Cookies.set(...);
 Cookies.get(...);
 ```
 
-**Method 2:** Otherwise, call
+Please use browserify.
+
+Method 2:
 
 
-```js
-Clusterfoo();
+```html
+<script src="/path/to/cookies.js"></script>
+<script>
+    // initialize cookies.js
+    Clusterfoo();
+</script>
 ```
 
 This will make the `Clusterfoo.cookies` object available globally:
