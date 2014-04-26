@@ -9,13 +9,13 @@ Some helper functions for handling cookies in the browser.
 Simply require `cookies.js` in your HTML.
 
 
-####Method 2:
+#### Method 2:
 
     bower install clusterfoo/cookie-helpers
 
 ## How to Use
 
-####Method 1:
+#### Method 1:
 
 If you are using [browserify](http://browserify.org/), simply
 
@@ -27,7 +27,7 @@ Cookies.get(...);
 
 Please use browserify.
 
-Method 2:
+#### Method 2:
 
 
 ```html
