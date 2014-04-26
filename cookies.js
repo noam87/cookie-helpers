@@ -4,7 +4,7 @@
   //
   // Usage:
   //
-  // To initialize this module, the user may call the `Clusterfoo()` function,
+  // To initialize this  the user may call the `Clusterfoo()` function,
   // which will make `Clusterfoo.cookies` available globally.
   if (typeof window.Clusterfoo !== "object") {
     window.Clusterfoo = function() {
@@ -27,7 +27,7 @@
 
   ////
   // Get a cookies value by name.
-  module.exports.get = C.get = get;
+  exports.get = C.get = get;
   function get(name) {
     var value = document.cookie;
     var start = value.indexOf(" " + name + "=");
@@ -45,7 +45,7 @@
 
   ////
   // Destroy a cookies by name.
-  module.exports.destroy = C.destroy = destroy;
+  exports.destroy = C.destroy = destroy;
   function destroy(name) {
     setCookie(name, "", -1);
   }
