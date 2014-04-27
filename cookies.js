@@ -3,7 +3,7 @@
   if (typeof Clusterfoo === "object") Clusterfoo.cookies = C;
 
   ////
-  // Namespace your shit, people.
+  // Namespace your.
   //
   // Usage:
   //
