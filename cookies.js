@@ -49,7 +49,7 @@
   // Destroy a cookies by name.
   exports.destroy = C.destroy = destroy;
   function destroy(name) {
-    setCookie(name, "", -1);
+    set(name, "", -1);
   }
 })(typeof window !== "undefined" ? window : {},
    typeof exports !== "undefined" ? exports : {});
